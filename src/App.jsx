@@ -4,6 +4,7 @@ import Hero from './Component/Hero/Hero'
 import About from './Component/About/About'
 import Services from './Component/Services/Services'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
+import Work from './Component/Mywork/Work'
 function App() {
   const router = createBrowserRouter([
     {
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <About/>
       <Services/>
+      <Work/>
       </>
     }
   ])

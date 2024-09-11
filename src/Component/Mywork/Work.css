@@ -1,0 +1,50 @@
+.work
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    margin: 80px 10%;
+}
+.work-title
+{
+position: relative;
+
+}
+.work-title h1{
+    padding: 0px 80px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.work-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 200px;
+}
+.work-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+  
+}
+.work-container img{
+    width: 429px;
+    height: 229px;
+    transition: 0.4s;
+    border-radius: 24px;
+
+}
+.work-container img:hover{
+    transform: scale(1.10);
+    border: 2px solid rgba(253,29,29,1);
+}
+.showmore{
+    display: flex;
+    align-items: center;
+    
+    padding: 40px 80px;
+    font-size: 20px;
+}

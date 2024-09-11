@@ -25,8 +25,9 @@ function Services() {
 <h2>{service.title}...</h2>
 <p>{service.description.substring(0 , 85)}...</p>
 <div className="services-readmore">
-<p>Read more</p>
+<p>Read more</p >
 <FaArrowRightLong/>
+
 </div>
           </div>
          </Link>
